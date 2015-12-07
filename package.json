@@ -1,0 +1,16 @@
+{
+  "name": "shadowhistory",
+  "version": "1.0.0",
+  "description": "Application in Processing that will \"record\" shadows and display them later",
+  "main": "index.pde",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Processing",
+    "Media",
+    "Art"
+  ],
+  "author": "@simonlovesyou",
+  "license": "MIT"
+}
