@@ -10,14 +10,14 @@ ArrayList<Contour> contours;
 
 
 void setup() {
-  size(1280, 720);
+  size(640, 360); //1280, 720
   background(255,255,255);
   
   img = createImage(width, height, RGB);
   thresh = createImage(width, height, RGB);
   dest = createImage(width, height, RGB);
   
-  camera = new Capture(this, 1280, 720);
+  camera = new Capture(this, 640, 360);
   //cv = new OpenCV(this, 1280/2, 720/2);
   
   camera.start();
